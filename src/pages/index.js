@@ -4,7 +4,6 @@ import { StickyProvider } from 'contexts/app/app.provider';
 import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
-import Modal from 'components/modal';
 import Banner from 'sections/banner';
 import WorkFlow from 'sections/workflow';
 import Pricing from 'sections/pricing';
@@ -27,7 +26,6 @@ export default function IndexPage(props) {
             <WorkFlow />
             <Pricing />
             <Contact service={props.emailjsService} user={props.emailjsUser} template={props.emailjsTemplate} />
-              <Modal />
           </Layout>
       </StickyProvider>
     </ThemeProvider>

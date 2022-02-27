@@ -45,7 +45,10 @@ export default function Layout({ children }) {
       >
         {children}
       </main>
-      {/* <Footer /> */}
+      <div style={{paddingTop: '3rem', paddingBottom: '3rem'}}>
+
+      </div>
+      <Footer />
     </React.Fragment>
   );
 }

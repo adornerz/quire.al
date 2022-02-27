@@ -8,6 +8,7 @@ export default function Footer() {
     <footer sx={styles.footer}>
       <Divider sx={styles.footer.divider} />
       <Container sx={styles.footer.container}>
+      <Logo />
         {menuItems.map(({ header, items }, i) => (
           <Box key={i} sx={styles.footer.widget}>
             <Heading sx={styles.footer.title}>{header}</Heading>
