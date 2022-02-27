@@ -52,7 +52,7 @@ const CtaThree = () => {
                   Upgrade
                 </Heading>
                 <Text as="p">
-                  {'Një përmisim gjigand në krahasim me hedhjen e produkteve tradicionalisht në një nga rrjetet sociale.'}
+                  {'Një përmirësim gjigand në krahasim me hedhjen e produkteve tradicionalisht në një nga rrjetet sociale.'}
                 </Text>
               </Box>
             </Grid>

@@ -127,7 +127,7 @@ const Contact = (props) => {
     }
 
     const sendEmail = () => {
-        emailjs.sendForm("service_zki61x6", "template_k1n1bmb", form.current, "user_lApCIQ6U6LJ8zN9fdBvsU")
+        emailjs.sendForm(props.service, props.template, form.current, props.user)
             .then((result) => {
                 styles.boxContainer.display = 'none';
                 styles.successBox.display = 'flex';
