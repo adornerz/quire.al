@@ -1,8 +1,11 @@
 {
-  "name": "@landing/003-next",
+  "homepage": "https://adornerz.github.io/quire.al",
+  "name": "quire.al",
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
     "serve": "next start",
@@ -32,6 +35,7 @@
     "validator": "^13.7.0"
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
